@@ -9,8 +9,15 @@
 <p><a href="https://github.com/Dyon-123/Dyon-123.git"> Eigen website</a></p>
 
 <html>
-<body>
-
-
-
+  <body>
+  
+  <h2>HTML Image</h2>
+  <img src="https://img.freepik.com/vrije-photo/landschap-van-een-golvende-zee-onder-het-zonlicht-en-een-blauwe-lucht_181624-25248.jpg?w=2000" alt="Zee" width="520" height="380">
+  
+  </body>
+  </html>
+  
+    
+    
+   
 
