@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Website met CSS-menu</title>
+    <title>Website met CSS Selecteer Menu</title>
 </head>
 <body>
 
@@ -12,17 +12,23 @@
         <h1>Mijn Website</h1>
     </header>
 
-    <nav class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Over ons</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
     <section>
-        <h2>Welkom op onze website!</h2>
-        <p>Dit is een eenvoudige website met een CSS-menu.</p>
+        <h2>Kies een kopje:</h2>
+
+        <form>
+            <label for="kopjes">Selecteer een kopje:</label>
+            <select id="kopjes" name="kopjes">
+                <option value="kopje1">Kopje 1</option>
+                <option value="kopje2">Kopje 2</option>
+                <option value="kopje3">Kopje 3</option>
+            </select>
+
+            <input type="submit" value="Toon geselecteerde kopje">
+        </form>
+
+        <div id="resultaat">
+            <!-- Hier wordt het geselecteerde kopje weergegeven -->
+        </div>
     </section>
 
 </body>
