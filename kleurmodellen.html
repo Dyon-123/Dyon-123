@@ -1,63 +1,70 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uitleg Kleurmodellen</title>
+    <title>Binair Stelsel Uitleg</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
+            margin: 20px;
+            background-color: #d70eb9;
         }
 
         header {
             background-color: #ffffff;
-            color: #000000;
-            padding: 20px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        nav {
-            background-color: #ff00d4;
+            color: #fff;
+            text-align: center;
             padding: 10px;
         }
 
-        nav a {
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: bold;
-            padding: 10px 15px;
-        }
-
-        nav a:hover {
-            background-color: #d300b3;
-            border-radius: 5px;
-        }
-
-        section {
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff; /* Achtergrondkleur toegevoegd */
             padding: 20px;
-            text-align: left;
-            margin: 0 auto;
-            max-width: 600px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Textcentrering toegevoegd */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        
+        a.home-link {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a.home-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Uitleg Kleurmodellen</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
-
-    <section>
+    <main><!-- Veranderd nav naar main -->
         <h2>Kleurmodellen</h2>
         <p>
             Een kleurmodel is een systeem om kleuren te definiëren en te representeren. Er zijn verschillende kleurmodellen die elk op een andere manier kleuren beschrijven. Enkele veelgebruikte kleurmodellen zijn:
@@ -68,7 +75,8 @@
             <li>HSV (Hue, Saturation, Value): Dit kleurmodel beschrijft kleuren op basis van tint, verzadiging en helderheid, waardoor het handig is voor het manipuleren van kleuren in grafische software.</li>
         </ul>
 
-        <img src="rgb.jpg" alt="RGB plaatje" width="400">
-    </section>
+        <img src="rgb.jpg" alt="RGB Picture" width="400">
+    </main>
 </body>
+
 </html>
